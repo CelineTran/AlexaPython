@@ -1,5 +1,5 @@
 ## Alexa Speech Synthesis Markup Language 
-(Alexa SSML) [https://developer.amazon.com/en-US/docs/alexa/custom-skills/speech-synthesis-markup-language-ssml-reference.html#break]
+[Alexa SSML](https://developer.amazon.com/en-US/docs/alexa/custom-skills/speech-synthesis-markup-language-ssml-reference.html#break)
 
 ### Break 
 
