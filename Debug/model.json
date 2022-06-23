@@ -1,0 +1,116 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "coded trivia",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CelineItent",
+                    "slots": [
+                        {
+                            "name": "myLastName",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "the last name is {myLastName}",
+                        "her last name is {myLastName}",
+                        "celine's last name is {myLastName}"
+                    ]
+                },
+                {
+                    "name": "TallestIntent",
+                    "slots": [
+                        {
+                            "name": "mytallName",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "the tallest is {mytallName}",
+                        "the tallest teacher is {mytallName}"
+                    ]
+                },
+                {
+                    "name": "OldetIntent",
+                    "slots": [
+                        {
+                            "name": "myOldName",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "the oldest is {myOldName}",
+                        "the oldest teachers is {myOldName}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.FirstName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Cho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pak"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flores"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Park"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Woo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tran"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
