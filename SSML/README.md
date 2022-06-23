@@ -3,7 +3,5 @@
 
 ### Break 
 
-<speak>
-    There is a three second pause here <break time="3s"/>
-    then the speech continues.
-</speak>
+
+`speechOutput = "<speak>There is a three second pause here <break time="3s"/> then the speech continues. </speak>"`
